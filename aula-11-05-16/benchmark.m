@@ -1,12 +1,23 @@
-for i = 0:1000:10000
-  disp('i = '), disp(i);
-  disp('piiter');
+ns = [];
+piiters = [];
+pivets = [];
+
+for i = 0:1000:50000
+  % calcula o tempo para piiter com i parcelas de pi
+  i
+  ns(end+1) = i;
+
   tic;
   piiter(i);
-  disp(toc);
+  tpiiter = toc
+  piiters(end+1) = tpiiter;
 
-  disp('pivet');
+  % calcula o tempo para pivet com i parcelas de pi
   tic;
   pivet(i);
-  disp(toc);
+  tpivet = toc
+  pivets(end+1) = tpivet;
+
+  m = (tpivet / tpiiter);
+  m
 end
