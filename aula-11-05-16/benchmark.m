@@ -2,7 +2,7 @@ ns = [];
 piiters = [];
 pivets = [];
 
-for i = 0:1000:50000
+for i = 0:1000:100000
   % calcula o tempo para piiter com i parcelas de pi
   i
   ns(end+1) = i;
