@@ -1,4 +1,4 @@
-# Created by Octave 3.8.2, Sat May 28 20:51:18 2016 BRT <paulo@seneca>
+# Created by Octave 3.8.2, Wed Jun 15 10:23:58 2016 BRT <paulo@seneca>
 # name: critics
 # type: struct
 # ndims: 2
@@ -9,34 +9,34 @@
 # rows: 1
 # columns: 4
 # name: <cell-element>
-# type: string
+# type: sq_string
 # elements: 1
-# length: 5
-Paulo
-
-
-
-# name: <cell-element>
-# type: string
-# elements: 1
-# length: 4
-Joao
+# length: 8
+pessoa 1
 
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 4
-Nati
+# length: 8
+pessoa 2
 
 
 
 # name: <cell-element>
-# type: string
+# type: sq_string
 # elements: 1
-# length: 4
-Jose
+# length: 8
+pessoa 3
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 8
+pessoa 4
 
 
 
